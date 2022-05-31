@@ -4,6 +4,8 @@
 # 이분탐색 문제는 정렬되어 있고 선형자료구조에서 값을 찾기 위한 최적의 알고리즘이다
 # 연료를 적절히 배분하는 것이 아닌 시간을 딱 정해놓고 연료계산을 해서 총합보다 작은지 판단
 # 이와 관련된 백준문제가 많다
+
+
 import sys
 from math import ceil, sqrt
 si = sys.stdin.readline
