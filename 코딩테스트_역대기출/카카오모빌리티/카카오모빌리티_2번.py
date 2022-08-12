@@ -41,6 +41,7 @@ for i in range(1, N):
 for i in range(N):
     for nxt in graph[i]:
         reversed_graph[nxt].append(i)
+print(reversed_graph)
 
 # 각각에 빨간정점으로부터 BFS탐색하면서 부모노드들을 전부 방문표시한다
 
